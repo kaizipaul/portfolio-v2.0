@@ -14,6 +14,30 @@
   font-named-instance: 'Italic';
 }
 
+@font-face {
+  font-family: 'Monaspace Neon Regular';
+  font-style: regular;
+  font-weight: 400;
+  font-display: block;
+  src: url(/fonts/MonaspaceNeon-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Monaspace Neon Bold';
+  font-style: regular;
+  font-weight: 600;
+  font-display: block;
+  src: url(/fonts/MonaspaceNeon-Bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Monaspace Neon ExtraBold';
+  font-style: regular;
+  font-weight: 700;
+  font-display: block;
+  src: url(/fonts/MonaspaceNeon-ExtraBold.woff) format('woff');
+}
+
 body {
   font-family: 'Inter var', system-ui, -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
@@ -31,13 +55,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-variation-settings: 'wght' 650;
+  font-family: 'Monaspace Neon Bold', monospace;
 }
 h1 {
-  font-variation-settings: 'wght' 850;
+  font-family: 'Monaspace Neon Bold', monospace;
 }
 h2 {
-  font-variation-settings: 'wght' 750;
+  font-family: 'Monaspace Neon Bold', monospace;
 }
 
 @media screen and (min-device-pixel-ratio: 1.5),
