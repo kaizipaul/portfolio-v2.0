@@ -15,6 +15,14 @@
 }
 
 @font-face {
+  font-family: 'Inter bold';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: block;
+  src: url(/fonts/Inter-Bold.woff2) format('woff2');
+}
+
+@font-face {
   font-family: 'Monaspace Neon Regular';
   font-style: regular;
   font-weight: 400;
@@ -50,7 +58,10 @@ body {
   letter-spacing: -0.02em;
 }
 b,
-strong,
+strong {
+  font-family: 'Inter bold', sans-serif;
+  font-weight: 700;
+}
 h3,
 h4,
 h5,
@@ -72,6 +83,7 @@ h2 {
   }
 }
 
+
 details summary {
   cursor: pointer;
 }
@@ -82,8 +94,11 @@ img.next-image {
 
 .prose a {
   color: #0074de;
+  text-decoration: none;
 }
 
+
 .nav-line .nav-link {
+  text-decoration: none;
   color: #69778c;
 }
